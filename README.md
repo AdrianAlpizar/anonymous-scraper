@@ -1,8 +1,28 @@
-# anonymous-scraper
+# Anonymous-Scraper
 
-An anonymous python web scraper built with BeautifulSoup, that makes requests using the package Tor as a SOCKS5 proxy for maximum anonymity, and saves the scraped content to memory using SQLite3. 
+A simple anonymous python web scraper built with BeautifulSoup, that makes requests using the package Tor as a SOCKS5 proxy for maximum anonymity, and saves the scraped content to memory using SQLite3. 
 
 ## Installation
+
+Create and activate a Virtual Enviroment ([venv](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/)) within your project before installing dependencies.
+
+Install virtualenv.
+
+```bash
+python3 -m pip install --user virtualenv
+```
+
+Create your virtualenv.
+
+```bash
+python3 -m venv env
+```
+
+Activate your virtualenv.
+
+```bash
+source env/bin/activate
+```
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install all the dependencies .
 
